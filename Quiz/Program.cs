@@ -51,9 +51,9 @@ Console.WriteLine("C:Grön");
 
 Console.WriteLine($"Du Hade {Poäng} Rätt");
 if (Poäng == 0){
-Console.WriteLine("Alla fel omöjligt");
+Console.WriteLine("Alla fel, omöjligt!");
 }else if (Poäng == 1){
-Console.WriteLine("Kom igen bara ett rätt");
+Console.WriteLine("Kom igen bara ett rätt, bättre kan du");
 
 }else if (Poäng == 2){
 Console.WriteLine("Nästan alla rätt");
