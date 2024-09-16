@@ -41,7 +41,7 @@ Console.WriteLine("C:3");
 Poäng += CheckaSvar("b");
 
 Console.ForegroundColor = ConsoleColor.Green;
-Console.WriteLine("Fråga nummer 3, Vilken färg är texten");
+Console.WriteLine("Fråga nummer 3, Vilken färg är texten?");
 Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("A:Röd");
 Console.WriteLine("B:Blå");
