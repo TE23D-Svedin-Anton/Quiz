@@ -50,4 +50,16 @@ Console.WriteLine("C:Grön");
  Poäng += CheckaSvar("c");
 
 Console.WriteLine($"Du Hade {Poäng} Rätt");
+if (Poäng == 0){
+Console.WriteLine("Alla fel omöjligt");
+}else if (Poäng == 1){
+Console.WriteLine("Kom igen bara ett rätt");
+
+}else if (Poäng == 2){
+Console.WriteLine("Nästan alla rätt");
+
+}else if (Poäng == 3){
+Console.WriteLine("Bra jobbat!");
+}
+
 Console.ReadLine();
